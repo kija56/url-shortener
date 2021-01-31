@@ -1,0 +1,26 @@
+{
+  "name": "url-shortener",
+  "version": "1.0.0",
+  "description": "Express url shorterner",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "npm run test",
+    "start": "nodemon src/index.js"
+  },
+  "keywords": [
+    "short",
+    "shortern",
+    "url"
+  ],
+  "author": "Kija Mabula",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "mongoose": "^5.11.14",
+    "shortid": "^2.2.16",
+    "valid-url": "^1.0.9"
+  }
+}
